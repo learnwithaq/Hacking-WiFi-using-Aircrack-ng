@@ -9,19 +9,19 @@ OR You may boot Kali Linux Live Everything by making a bootable USB using "RUFUS
 Tool	Purpose	Example Command
 
 airmon-ng
-Enable monitor mode
+[Enable monitor mode] >>>
 sudo airmon-ng start wlan0
 
 airodump-ng
-Capture network traffic
+[Capture network traffic] >>>
 sudo airodump-ng -c 6 wlan0mon
 
 aireplay-ng
-Inject/deauth packets
+[Inject/deauth packets] >>>
 sudo aireplay-ng -0 1 ...
 
 aircrack-ng
-Crack WPA/WEP keys
+[Crack WPA/WEP keys] >>>
 sudo aircrack-ng -w wordlist.lst ...
 
 
