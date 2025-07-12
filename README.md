@@ -1,5 +1,7 @@
 <h3>WiFi Hacking - Aircrack-ng</h3>
 
+<p>Aircrack-ng is a powerful suite used to audit wireless networks. It captures WPA/WPA2 handshakes via packet sniffing (using tools like airodump-ng), then uses dictionary or brute-force attacks to crack the password. The process typically involves putting the Wi-Fi card into monitor mode, capturing the handshake during a client connection, and using aircrack-ng to attempt key recovery.</p>
+
 OS = Kali Linux Live Everything > You may download it from https://kali.org<br>
 Tools - aircrack-ng<br>
 <br>
